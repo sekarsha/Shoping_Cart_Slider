@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.main_1{
+    width: 500px;
+   overflow: hidden;
+   margin: 0;
+   padding: 0;
+
+}
+
+
+.main_img{
+  
+   display: flex;
+  
+}
+
+.img-fluid:hover{
+
+    transition: transform 0.3s;
+    transform: scale(1.1);
+}
+
+
+
+a img {
+    transition: transform 0.3s;
+  }
+  
+ a img:hover {
+    transform: scale(1.3);
+  }
+
+.form-select{
+    width: 80px;
+}
+
+.count_right{
+background-color: #EEEEEE;
+padding: 20px;
+}
+
+.deal{
+    font-size: 15px;
+}
+
+
+
+
+@media (max-width: 500px) {
+      
+
+    h3{
+
+        font-size: 15px;
+        
+        }
+
+        .star img{
+
+            width: 20px;
+        }
+        
+
+
+
+        .deal{
+            font-size: 10px;
+        }
+        
+        .price {
+            font-size: 20px;
+        }
+        .specfic{
+        
+        
+        
+            font-size: 20px;
+        }
+        p{
+            font-size: 10px;
+            padding: 0;
+        }
+        .selc{
+        
+            font-size: 15px;
+        }
+        .form-select{
+            width: 40px;
+            height: 30px;
+            font-size: 10px;
+        }
+        
+        .btn1{
+        font-size: 15px;
+        padding: 5px;
+        margin-bottom: 10px;
+        }
+        
+
+    }
+   
+    .spilt_img img{
+        width: 80px;
+        
+       
+      
+    }
+
+    @media (min-width: 500px) {
+
+        .spilt_img img{
+            width: 120px;
+            padding: 10px;
+          
+        }
+        
+
+
+    };
+
+.main_img{
+
+    background-color: #EEEEEE;
+   
+}
+.main_1{
+
+    background-color: #EEEEEE;
+}
+
+   
